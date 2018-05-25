@@ -2,15 +2,16 @@
 #
 # Blog Settings
 #
-author: Michel Bechelani
-description: A blog about nothing...
-url: https://bechelani.com
 title: Michel Bechelani
 subtitle: A blog about nothing...
-# gravatar_url: https://2.gravatar.com/avatar/
-subscribe_rss: https://bechelani.com/atom.xml
-email_md5: a0661c010257531bea5bdacab8fd5712
+description: A blog about nothing...
+author: Michel Bechelani
+url: https://bechelani.com
 lang: en
+
+subscribe_rss: https://bechelani.com/atom.xml
+
+email_md5: a0661c010257531bea5bdacab8fd5712
 
 # Github repositories
 github_user: bechelani
@@ -23,11 +24,11 @@ twitter:
 twitter_tweet_button: true
 
 # Disqus Comments
-disqus_short_name: bechelani
+disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id: UA-XXXXXX-1
+google_analytics_tracking_id:
 
 social:
   name: Michel Bechelani
