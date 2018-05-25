@@ -1,0 +1,65 @@
+
+#
+# Blog Settings
+#
+author: Michel Bechelani
+description: A blog about nothing...
+url: https://bechelani.com
+title: Michel Bechelani
+subtitle: A blog about nothing...
+# gravatar_url: https://2.gravatar.com/avatar/
+subscribe_rss: https://bechelani.com/atom.xml
+email_md5: a0661c010257531bea5bdacab8fd5712
+lang: en
+
+# Github repositories
+github_user: bechelani
+github_repo_url: https://github.com/bechelani/bechelani.com/
+
+# Twitter
+twitter_user: bechelani
+twitter:
+  username: bechelani
+twitter_tweet_button: true
+
+# Disqus Comments
+disqus_short_name: bechelani
+disqus_show_comment_count: false
+
+# Google Analytics
+google_analytics_tracking_id: UA-XXXXXX-1
+
+social:
+  name: Michel Bechelani
+  links:
+    - https://twitter.com/bechelani
+    - https://www.linkedin.com/in/bechelani
+    - https://github.com/bechelani
+
+kramdown:
+  hard_wrap: false
+
+#
+# Jekyll Settings
+#
+permalink: /archive/:year/:month/:day/:title/
+paginate: 20
+paginate_path: "page/:num"
+category_dir: categories
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+
+feed:
+  path: atom.xml
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _scss
+  style:            :compressed
