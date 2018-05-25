@@ -3,6 +3,7 @@ layout: page
 title: About
 description: "A bit about Michel Bechelani"
 permalink: /about/
+sharing: false
 ---
 
 ## Who I am
