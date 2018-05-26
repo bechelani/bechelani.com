@@ -213,6 +213,11 @@ a {
   border: 1px solid #55CFF8;
 }
 #sub-nav .social a.twitter:hover { border: 1px solid #24c1f6 }
+#sub-nav .social a.linkedin {
+  background: url('/images/social/linkedin.png?1385702818') center no-repeat #4875B4;
+  border: 1px solid #4875B4;
+}
+#sub-nav .social a.linkedin:hover { border: 1px solid #4875B4 }
 #sub-nav .social a.github {
   background: url('/images/social/github.png?1385702818') center no-repeat #afb6ca;
   border: 1px solid #afb6ca;
