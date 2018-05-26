@@ -1,4 +1,3 @@
-
 #
 # Blog Settings
 #
@@ -8,7 +7,6 @@ description: A blog about nothing...
 author: Michel Bechelani
 root: https://bechelani.com
 url: https://bechelani.com
-lang: en
 
 subscribe_rss: https://bechelani.com/atom.xml
 
@@ -20,23 +18,12 @@ github_repo_url: https://github.com/bechelani/bechelani.com/
 
 # Twitter
 twitter_user: bechelani
-twitter:
-  username: bechelani
-twitter_tweet_button: true
 
-# Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+# LinkedIn
+linkedin_user: bechelani
 
 # Google Analytics
 google_analytics_tracking_id:
-
-social:
-  name: Michel Bechelani
-  links:
-    - https://twitter.com/bechelani
-    - https://www.linkedin.com/in/bechelani
-    - https://github.com/bechelani
 
 kramdown:
   hard_wrap: false

@@ -1,8 +1,9 @@
-{% capture category %}{% if post %}{{ post.categories | category_links | size }}{% else %}{{ page.categories | category_links | size }}{% endif %}{% endcapture %}
-{% unless category == '0' %}
 {% if post %}
-	{{ post.categories | category_links }}
+  {% assign categories = post.categories %}
 {% else %}
-	{{ page.categories | category_links }}
+  {% assign categories = page.categories %}
 {% endif %}
-{% endunless %}
+{% for category in categories %}
+<a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+{% unless forloop.last %}&nbsp;{% endunless %}
+{% endfor %}
